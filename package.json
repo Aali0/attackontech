@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-personal-starter-blog",
+  "name": "attackontech",
   "private": true,
-  "description": "A personal blog starter for a blog powered by Netlify CMS, based on the default blog starter",
+  "description": "Coding, Tech, Gaming, Anime, and More",
   "version": "2.0.0",
-  "author": "Thomas Wang <thomas@wang.sh>",
+  "author": "Ahmed Ali",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
