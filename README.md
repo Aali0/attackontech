@@ -13,6 +13,7 @@
 ## Description
 A programming blog with topics such as: Coding, Tech, Gaming, Anime, and More
 
+Built with GatsbyJS, a React Framework
 ## Installation
 npm install
 

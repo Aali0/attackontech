@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Attack On Tech`,
+    title: `Attack on Tech`,
     author: `onePunchProgrammer`,
     description: `Coding, Tech, Gaming, Anime, and More`,
     siteUrl: `https://attackontech.com`,
