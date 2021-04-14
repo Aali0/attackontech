@@ -7,20 +7,20 @@
 
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
+// import Image from "gatsby-image"
 import styled from "styled-components"
 
-import { rhythm } from "../utils/typography"
+// import { rhythm } from "../utils/typography"
 
 function Bio() {
   return (
     <StaticQuery
       query={bioQuery}
       render={data => {
-        const { author, social } = data.site.siteMetadata
+        // const { author, social } = data.site.siteMetadata
         return (
           <Container>
-            <Image
+            {/* <Image
               fixed={data.avatar.childImageSharp.fixed}
               alt={author}
               style={{
@@ -32,14 +32,13 @@ function Bio() {
               imgStyle={{
                 borderRadius: `50%`,
               }}
-            />
+            /> */}
             <p>
-              Written by <strong>{author}</strong>, a framework built upon the
-              React library.
+              Programming | Tech | Gaming | Anime
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                Follow me on Twitter
-              </a>
+              {/* <a href={`https://onepunchprogrammer.com`}>
+                My Site
+              </a> */}
             </p>
           </Container>
         )

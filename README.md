@@ -11,7 +11,7 @@
 * [Email: ](#email)
 
 ## Description
-A programming vlog with topics such as: Coding, Tech, Gamin, Anime, and More
+A programming blog with topics such as: Coding, Tech, Gaming, Anime, and More
 
 ## Installation
 npm install
