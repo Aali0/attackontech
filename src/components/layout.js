@@ -81,16 +81,18 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   margin: 0;
+  padding-bottom: 2.5rem;
   background: #F7F9FB;
 `
 
 const Footer = styled.footer`
   text-align: center;
-  margin: 25px;
   flex: 1;
   position: absolute; 
   bottom: 0;
   padding-top: 15px;
+  width: 100%;
+  height: 2.5rem;
 `
 
 export default Layout
