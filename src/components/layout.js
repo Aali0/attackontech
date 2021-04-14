@@ -88,12 +88,8 @@ const Footer = styled.footer`
   text-align: center;
   margin: 25px;
   flex: 1;
-  position: absolute;
-  width: 100%;
+  position: absolute; 
   bottom: 0;
-  height: 2.5rem;
-  border-top-style: solid;
-  border-top-width: 2px;
   padding-top: 15px;
 `
 
