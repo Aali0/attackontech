@@ -64,7 +64,9 @@ class Layout extends React.Component {
           }}
         >
           <header>{header}</header>
+          <hr />
           <main>{children}</main>
+          
         </div>
         <Footer>
           © Ahmed Ali | 
@@ -77,22 +79,23 @@ class Layout extends React.Component {
 }
 
 const Wrapper = styled.div`
-  min-height: 100vh;
+  background: #F7F9FB;
   display: flex;
   flex-direction: column;
   margin: 0;
+  min-height: 100vh;
   padding-bottom: 2.5rem;
-  background: #F7F9FB;
+  position: relative;
 `
 
 const Footer = styled.footer`
-  text-align: center;
-  flex: 1;
-  position: absolute; 
   bottom: 0;
-  padding-top: 15px;
-  width: 100%;
+  flex: 1;
   height: 2.5rem;
+  padding-top: 15px;
+  position: absolute; 
+  text-align: center;
+  width: 100%;
 `
 
 export default Layout
