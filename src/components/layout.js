@@ -78,11 +78,23 @@ class Layout extends React.Component {
 
 const Wrapper = styled.div`
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background: #F7F9FB;
 `
 
 const Footer = styled.footer`
   text-align: center;
-  margin: 24px;
+  margin: 25px;
+  flex: 1;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 2.5rem;
+  border-top-style: solid;
+  border-top-width: 2px;
+  padding-top: 15px;
 `
 
 export default Layout
