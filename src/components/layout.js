@@ -88,7 +88,7 @@ const Footer = styled.footer`
   text-align: center;
   margin: 25px;
   flex: 1;
-  position: fixed;
+  position: absolute;
   width: 100%;
   bottom: 0;
   height: 2.5rem;
