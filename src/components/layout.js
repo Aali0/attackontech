@@ -70,7 +70,7 @@ class Layout extends React.Component {
           
         </div>
         <Footer>
-          © Ahmed Ali | 
+          © 2021 Ahmed Ali | 
           {` `}
           <a href="https://www.onepunchprogrammer.com">My Site</a>
         </Footer>

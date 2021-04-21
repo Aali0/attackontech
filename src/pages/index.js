@@ -8,7 +8,7 @@ import Button from "../components/button"
 class IndexPage extends React.Component {
   render() {
     const siteTitle = "Attack on Tech"
-    const homeImage = require('../../content/assets/matrix.jpg')
+    const homeImage = require('../../content/assets/aot-home.png')
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
