@@ -20,7 +20,7 @@ class IndexPage extends React.Component {
         <h1>
           Yo!{" "}
           <span role="img" aria-label="wave emoji">
-            💾
+            {/* 💾 */}
           </span>
         </h1>
         <p>Welcome to the onePunchProgrammer's blog.</p>
