@@ -18,7 +18,7 @@ class IndexPage extends React.Component {
         />
         <img src={homeImage} />
         <h1>
-          Yo!{" "}
+          {/* Yo!{" "} */}
           <span role="img" aria-label="wave emoji">
             {/* 💾 */}
           </span>
